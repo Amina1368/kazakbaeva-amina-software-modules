@@ -1,2 +1,8 @@
 test.txt
 .DS_Store
+bin/
+obj/
+*.dll
+*.pdb
+*.deps.json
+*.runtimeconfig.json
