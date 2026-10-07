@@ -24,3 +24,4 @@
 - Текстовый редактор.
 
 ## Правило работы с ветками
+ origin/feature/team-branch-rules
