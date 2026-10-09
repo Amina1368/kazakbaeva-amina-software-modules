@@ -57,18 +57,18 @@ class Program
         Console.Write("Введите сумму покупки: ");
         double sum = double.Parse(Console.ReadLine());
 
-        int discount;
+        int skidka;
 
         switch (sum)
         {
-            case < 1000:              discount = 0;  break;
-            case >= 1000 and < 5000:  discount = 5;  break;
-            case >= 5000 and < 10000: discount = 10; break;
-            default:                  discount = 15; break;
+            case < 1000:              skidka = 0;  break;
+            case >= 1000 and < 5000:  skidka = 5;  break;
+            case >= 5000 and < 10000: skidka = 10; break;
+            default:                  skidka = 15; break;
         }
 
         Console.WriteLine($"Сумма: {sum} руб.");
-        Console.WriteLine($"Скидка: {discount}%");
+        Console.WriteLine($"Скидка: {skidka}%");
     }
 }
     
