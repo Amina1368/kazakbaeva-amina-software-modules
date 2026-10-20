@@ -1,0 +1,91 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\413\\Documents\\GitHub\\stepanova-ulyana-software-modules\\hjuhuyhu\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\413\\Documents\\GitHub\\kazakbaeva-amina-software-modules\\\u043A\u043B\u0430\u0441\u0441\u044B \u0438 \u043E\u0431\u044C\u0435\u043A\u0442\u044B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\hjuhuyhu\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19319E0-B455-425D-BF59-886954CF719E}|hjuhuyhu\\hjuhuyhu.csproj|c:\\users\\413\\documents\\github\\stepanova-ulyana-software-modules\\hjuhuyhu\\hjuhuyhu\\modules\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D19319E0-B455-425D-BF59-886954CF719E}|hjuhuyhu\\hjuhuyhu.csproj|solutionrelative:hjuhuyhu\\modules\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19319E0-B455-425D-BF59-886954CF719E}|hjuhuyhu\\hjuhuyhu.csproj|c:\\users\\413\\documents\\github\\stepanova-ulyana-software-modules\\hjuhuyhu\\hjuhuyhu\\hjuhuyhu.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D19319E0-B455-425D-BF59-886954CF719E}|hjuhuyhu\\hjuhuyhu.csproj|solutionrelative:hjuhuyhu\\hjuhuyhu.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19319E0-B455-425D-BF59-886954CF719E}|hjuhuyhu\\hjuhuyhu.csproj|c:\\users\\413\\documents\\github\\stepanova-ulyana-software-modules\\hjuhuyhu\\hjuhuyhu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D19319E0-B455-425D-BF59-886954CF719E}|hjuhuyhu\\hjuhuyhu.csproj|solutionrelative:hjuhuyhu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\413\\Documents\\GitHub\\kazakbaeva-amina-software-modules\\\u043A\u043B\u0430\u0441\u0441\u044B \u0438 \u043E\u0431\u044C\u0435\u043A\u0442\u044B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\hjuhuyhu\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\kazakbaeva-amina-software-modules\\\u043A\u043B\u0430\u0441\u0441\u044B \u0438 \u043E\u0431\u044C\u0435\u043A\u0442\u044B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\hjuhuyhu\\Program.cs",
+              "ToolTip": "C:\\Users\\413\\Documents\\GitHub\\kazakbaeva-amina-software-modules\\\u043A\u043B\u0430\u0441\u0441\u044B \u0438 \u043E\u0431\u044C\u0435\u043A\u0442\u044B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\hjuhuyhu\\Program.cs",
+              "RelativeToolTip": "..\\..\\kazakbaeva-amina-software-modules\\\u043A\u043B\u0430\u0441\u0441\u044B \u0438 \u043E\u0431\u044C\u0435\u043A\u0442\u044B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\hjuhuyhu\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T11:35:29.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\413\\Documents\\GitHub\\stepanova-ulyana-software-modules\\hjuhuyhu\\hjuhuyhu\\modules\\Class1.cs",
+              "RelativeDocumentMoniker": "hjuhuyhu\\modules\\Class1.cs",
+              "ToolTip": "C:\\Users\\413\\Documents\\GitHub\\stepanova-ulyana-software-modules\\hjuhuyhu\\hjuhuyhu\\modules\\Class1.cs",
+              "RelativeToolTip": "hjuhuyhu\\modules\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T09:58:31.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "hjuhuyhu",
+              "DocumentMoniker": "C:\\Users\\413\\Documents\\GitHub\\stepanova-ulyana-software-modules\\hjuhuyhu\\hjuhuyhu\\hjuhuyhu.csproj",
+              "RelativeDocumentMoniker": "hjuhuyhu\\hjuhuyhu.csproj",
+              "ToolTip": "C:\\Users\\413\\Documents\\GitHub\\stepanova-ulyana-software-modules\\hjuhuyhu\\hjuhuyhu\\hjuhuyhu.csproj",
+              "RelativeToolTip": "hjuhuyhu\\hjuhuyhu.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-20T09:55:31.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\413\\Documents\\GitHub\\stepanova-ulyana-software-modules\\hjuhuyhu\\hjuhuyhu\\Program.cs",
+              "RelativeDocumentMoniker": "hjuhuyhu\\Program.cs",
+              "ToolTip": "C:\\Users\\413\\Documents\\GitHub\\stepanova-ulyana-software-modules\\hjuhuyhu\\hjuhuyhu\\Program.cs",
+              "RelativeToolTip": "hjuhuyhu\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T09:35:07.242Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

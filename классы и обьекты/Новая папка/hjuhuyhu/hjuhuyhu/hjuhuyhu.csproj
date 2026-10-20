@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="C:\Users\413\Documents\GitHub\kazakbaeva-amina-software-modules\классы и обьекты\Новая папка\Class1.cs" Link="Class1.cs" />
+    <Compile Include="C:\Users\413\Documents\GitHub\kazakbaeva-amina-software-modules\классы и обьекты\Новая папка\Program.cs" Link="Program.cs" />
+  </ItemGroup>
+
+</Project>
