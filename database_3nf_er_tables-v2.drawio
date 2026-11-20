@@ -1,0 +1,748 @@
+<mxfile host="app.diagrams.net" modified="2026-11-20T06:54:00.000Z" agent="Mozilla/5.0" version="24.0.0">
+  <diagram id="ER_Standard_RU_v2" name="База данных 3НФ">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1650" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <!-- Роли -->
+        <mxCell id="tbl_roles" value="Роли" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="210" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_roles_r0" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=#000000;" vertex="1" parent="tbl_roles">
+          <mxGeometry y="30" width="210" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_roles_r0_c1" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;fontStyle=1;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_roles_r0">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_roles_r0_c2" value="Код роли" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_roles_r0">
+          <mxGeometry x="40" width="170" height="28" as="geometry">
+            <mxRectangle width="170" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_roles_r1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="tbl_roles">
+          <mxGeometry y="58" width="210" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_roles_r1_c1" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_roles_r1">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_roles_r1_c2" value="Название роли" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_roles_r1">
+          <mxGeometry x="40" width="170" height="28" as="geometry">
+            <mxRectangle width="170" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <!-- Пользователи -->
+        <mxCell id="tbl_users" value="Пользователи" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="330" y="40" width="240" height="226" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_users_r0" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=#000000;" vertex="1" parent="tbl_users">
+          <mxGeometry y="30" width="240" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_users_r0_c1" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;fontStyle=1;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_users_r0">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_users_r0_c2" value="Код пользователя" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_users_r0">
+          <mxGeometry x="40" width="200" height="28" as="geometry">
+            <mxRectangle width="200" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_users_r1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="tbl_users">
+          <mxGeometry y="58" width="240" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_users_r1_c1" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;fontStyle=2;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_users_r1">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_users_r1_c2" value="Код роли" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=2;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_users_r1">
+          <mxGeometry x="40" width="200" height="28" as="geometry">
+            <mxRectangle width="200" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_users_r2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="tbl_users">
+          <mxGeometry y="86" width="240" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_users_r2_c1" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_users_r2">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_users_r2_c2" value="Фамилия" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_users_r2">
+          <mxGeometry x="40" width="200" height="28" as="geometry">
+            <mxRectangle width="200" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_users_r3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="tbl_users">
+          <mxGeometry y="114" width="240" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_users_r3_c1" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_users_r3">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_users_r3_c2" value="Имя" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_users_r3">
+          <mxGeometry x="40" width="200" height="28" as="geometry">
+            <mxRectangle width="200" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_users_r4" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="tbl_users">
+          <mxGeometry y="142" width="240" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_users_r4_c1" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_users_r4">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_users_r4_c2" value="Отчество" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_users_r4">
+          <mxGeometry x="40" width="200" height="28" as="geometry">
+            <mxRectangle width="200" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_users_r5" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="tbl_users">
+          <mxGeometry y="170" width="240" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_users_r5_c1" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_users_r5">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_users_r5_c2" value="Логин" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_users_r5">
+          <mxGeometry x="40" width="200" height="28" as="geometry">
+            <mxRectangle width="200" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_users_r6" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="tbl_users">
+          <mxGeometry y="198" width="240" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_users_r6_c1" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_users_r6">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_users_r6_c2" value="Пароль" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_users_r6">
+          <mxGeometry x="40" width="200" height="28" as="geometry">
+            <mxRectangle width="200" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <!-- Города -->
+        <mxCell id="tbl_cities" value="Города" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="350" width="210" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_cities_r0" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=#000000;" vertex="1" parent="tbl_cities">
+          <mxGeometry y="30" width="210" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_cities_r0_c1" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;fontStyle=1;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_cities_r0">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_cities_r0_c2" value="Код города" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_cities_r0">
+          <mxGeometry x="40" width="170" height="28" as="geometry">
+            <mxRectangle width="170" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_cities_r1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="tbl_cities">
+          <mxGeometry y="58" width="210" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_cities_r1_c1" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_cities_r1">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_cities_r1_c2" value="Название города" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_cities_r1">
+          <mxGeometry x="40" width="170" height="28" as="geometry">
+            <mxRectangle width="170" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <!-- Пункты выдачи -->
+        <mxCell id="tbl_pickup" value="Пункты выдачи" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="330" y="320" width="240" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_pickup_r0" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=#000000;" vertex="1" parent="tbl_pickup">
+          <mxGeometry y="30" width="240" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_pickup_r0_c1" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;fontStyle=1;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_pickup_r0">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_pickup_r0_c2" value="Код пункта выдачи" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_pickup_r0">
+          <mxGeometry x="40" width="200" height="28" as="geometry">
+            <mxRectangle width="200" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_pickup_r1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="tbl_pickup">
+          <mxGeometry y="58" width="240" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_pickup_r1_c1" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;fontStyle=2;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_pickup_r1">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_pickup_r1_c2" value="Код города" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=2;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_pickup_r1">
+          <mxGeometry x="40" width="200" height="28" as="geometry">
+            <mxRectangle width="200" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_pickup_r2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="tbl_pickup">
+          <mxGeometry y="86" width="240" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_pickup_r2_c1" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_pickup_r2">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_pickup_r2_c2" value="Индекс" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_pickup_r2">
+          <mxGeometry x="40" width="200" height="28" as="geometry">
+            <mxRectangle width="200" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_pickup_r3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="tbl_pickup">
+          <mxGeometry y="114" width="240" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_pickup_r3_c1" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_pickup_r3">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_pickup_r3_c2" value="Улица" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_pickup_r3">
+          <mxGeometry x="40" width="200" height="28" as="geometry">
+            <mxRectangle width="200" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_pickup_r4" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="tbl_pickup">
+          <mxGeometry y="142" width="240" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_pickup_r4_c1" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_pickup_r4">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_pickup_r4_c2" value="Дом" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_pickup_r4">
+          <mxGeometry x="40" width="200" height="28" as="geometry">
+            <mxRectangle width="200" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <!-- Статусы заказов -->
+        <mxCell id="tbl_statuses" value="Статусы заказов" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="330" y="540" width="240" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_statuses_r0" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=#000000;" vertex="1" parent="tbl_statuses">
+          <mxGeometry y="30" width="240" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_statuses_r0_c1" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;fontStyle=1;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_statuses_r0">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_statuses_r0_c2" value="Код статуса" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_statuses_r0">
+          <mxGeometry x="40" width="200" height="28" as="geometry">
+            <mxRectangle width="200" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_statuses_r1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="tbl_statuses">
+          <mxGeometry y="58" width="240" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_statuses_r1_c1" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_statuses_r1">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_statuses_r1_c2" value="Название статуса" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_statuses_r1">
+          <mxGeometry x="40" width="200" height="28" as="geometry">
+            <mxRectangle width="200" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <!-- Заказы -->
+        <mxCell id="tbl_orders" value="Заказы" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="660" y="210" width="250" height="226" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_orders_r0" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=#000000;" vertex="1" parent="tbl_orders">
+          <mxGeometry y="30" width="250" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_orders_r0_c1" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;fontStyle=1;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_orders_r0">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_orders_r0_c2" value="Номер заказа" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_orders_r0">
+          <mxGeometry x="40" width="210" height="28" as="geometry">
+            <mxRectangle width="210" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_orders_r1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="tbl_orders">
+          <mxGeometry y="58" width="250" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_orders_r1_c1" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;fontStyle=2;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_orders_r1">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_orders_r1_c2" value="Код пользователя" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=2;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_orders_r1">
+          <mxGeometry x="40" width="210" height="28" as="geometry">
+            <mxRectangle width="210" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_orders_r2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="tbl_orders">
+          <mxGeometry y="86" width="250" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_orders_r2_c1" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;fontStyle=2;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_orders_r2">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_orders_r2_c2" value="Код пункта выдачи" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=2;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_orders_r2">
+          <mxGeometry x="40" width="210" height="28" as="geometry">
+            <mxRectangle width="210" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_orders_r3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="tbl_orders">
+          <mxGeometry y="114" width="250" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_orders_r3_c1" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;fontStyle=2;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_orders_r3">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_orders_r3_c2" value="Код статуса" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=2;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_orders_r3">
+          <mxGeometry x="40" width="210" height="28" as="geometry">
+            <mxRectangle width="210" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_orders_r4" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="tbl_orders">
+          <mxGeometry y="142" width="250" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_orders_r4_c1" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_orders_r4">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_orders_r4_c2" value="Дата заказа" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_orders_r4">
+          <mxGeometry x="40" width="210" height="28" as="geometry">
+            <mxRectangle width="210" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_orders_r5" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="tbl_orders">
+          <mxGeometry y="170" width="250" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_orders_r5_c1" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_orders_r5">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_orders_r5_c2" value="Дата доставки" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_orders_r5">
+          <mxGeometry x="40" width="210" height="28" as="geometry">
+            <mxRectangle width="210" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_orders_r6" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="tbl_orders">
+          <mxGeometry y="198" width="250" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_orders_r6_c1" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_orders_r6">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_orders_r6_c2" value="Код для получения" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_orders_r6">
+          <mxGeometry x="40" width="210" height="28" as="geometry">
+            <mxRectangle width="210" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <!-- Состав заказа -->
+        <mxCell id="tbl_order_items" value="Состав заказа" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="660" y="490" width="250" height="142" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_order_items_r0" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=#000000;" vertex="1" parent="tbl_order_items">
+          <mxGeometry y="30" width="250" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_order_items_r0_c1" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;fontStyle=1;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_order_items_r0">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_order_items_r0_c2" value="Код позиции заказа" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_order_items_r0">
+          <mxGeometry x="40" width="210" height="28" as="geometry">
+            <mxRectangle width="210" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_order_items_r1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="tbl_order_items">
+          <mxGeometry y="58" width="250" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_order_items_r1_c1" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;fontStyle=2;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_order_items_r1">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_order_items_r1_c2" value="Номер заказа" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=2;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_order_items_r1">
+          <mxGeometry x="40" width="210" height="28" as="geometry">
+            <mxRectangle width="210" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_order_items_r2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="tbl_order_items">
+          <mxGeometry y="86" width="250" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_order_items_r2_c1" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;fontStyle=2;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_order_items_r2">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_order_items_r2_c2" value="Артикул" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=2;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_order_items_r2">
+          <mxGeometry x="40" width="210" height="28" as="geometry">
+            <mxRectangle width="210" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_order_items_r3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="tbl_order_items">
+          <mxGeometry y="114" width="250" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_order_items_r3_c1" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_order_items_r3">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_order_items_r3_c2" value="Количество" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_order_items_r3">
+          <mxGeometry x="40" width="210" height="28" as="geometry">
+            <mxRectangle width="210" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <!-- Товары -->
+        <mxCell id="tbl_products" value="Товары" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="330" width="260" height="338" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_products_r0" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=#000000;" vertex="1" parent="tbl_products">
+          <mxGeometry y="30" width="260" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_products_r0_c1" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;fontStyle=1;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_products_r0">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_products_r0_c2" value="Артикул" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_products_r0">
+          <mxGeometry x="40" width="220" height="28" as="geometry">
+            <mxRectangle width="220" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_products_r1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="tbl_products">
+          <mxGeometry y="58" width="260" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_products_r1_c1" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;fontStyle=2;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_products_r1">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_products_r1_c2" value="Код наименования" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=2;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_products_r1">
+          <mxGeometry x="40" width="220" height="28" as="geometry">
+            <mxRectangle width="220" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_products_r2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="tbl_products">
+          <mxGeometry y="86" width="260" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_products_r2_c1" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;fontStyle=2;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_products_r2">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_products_r2_c2" value="Код единицы измерения" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=2;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_products_r2">
+          <mxGeometry x="40" width="220" height="28" as="geometry">
+            <mxRectangle width="220" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_products_r3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="tbl_products">
+          <mxGeometry y="114" width="260" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_products_r3_c1" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;fontStyle=2;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_products_r3">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_products_r3_c2" value="Код поставщика" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=2;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_products_r3">
+          <mxGeometry x="40" width="220" height="28" as="geometry">
+            <mxRectangle width="220" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_products_r4" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="tbl_products">
+          <mxGeometry y="142" width="260" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_products_r4_c1" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;fontStyle=2;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_products_r4">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_products_r4_c2" value="Код производителя" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=2;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_products_r4">
+          <mxGeometry x="40" width="220" height="28" as="geometry">
+            <mxRectangle width="220" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_products_r5" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="tbl_products">
+          <mxGeometry y="170" width="260" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_products_r5_c1" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;fontStyle=2;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_products_r5">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_products_r5_c2" value="Код категории" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=2;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_products_r5">
+          <mxGeometry x="40" width="220" height="28" as="geometry">
+            <mxRectangle width="220" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_products_r6" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="tbl_products">
+          <mxGeometry y="198" width="260" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_products_r6_c1" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_products_r6">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_products_r6_c2" value="Цена" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_products_r6">
+          <mxGeometry x="40" width="220" height="28" as="geometry">
+            <mxRectangle width="220" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_products_r7" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="tbl_products">
+          <mxGeometry y="226" width="260" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_products_r7_c1" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_products_r7">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_products_r7_c2" value="Действующая скидка" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_products_r7">
+          <mxGeometry x="40" width="220" height="28" as="geometry">
+            <mxRectangle width="220" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_products_r8" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="tbl_products">
+          <mxGeometry y="254" width="260" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_products_r8_c1" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_products_r8">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_products_r8_c2" value="Количество на складе" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_products_r8">
+          <mxGeometry x="40" width="220" height="28" as="geometry">
+            <mxRectangle width="220" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_products_r9" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="tbl_products">
+          <mxGeometry y="282" width="260" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_products_r9_c1" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_products_r9">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_products_r9_c2" value="Описание товара" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_products_r9">
+          <mxGeometry x="40" width="220" height="28" as="geometry">
+            <mxRectangle width="220" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_products_r10" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="tbl_products">
+          <mxGeometry y="310" width="260" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_products_r10_c1" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_products_r10">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_products_r10_c2" value="Фото" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_products_r10">
+          <mxGeometry x="40" width="220" height="28" as="geometry">
+            <mxRectangle width="220" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <!-- Наименования товаров -->
+        <mxCell id="tbl_pnames" value="Наименования товаров" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="150" width="230" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_pnames_r0" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=#000000;" vertex="1" parent="tbl_pnames">
+          <mxGeometry y="30" width="230" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_pnames_r0_c1" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;fontStyle=1;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_pnames_r0">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_pnames_r0_c2" value="Код наименования" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_pnames_r0">
+          <mxGeometry x="40" width="190" height="28" as="geometry">
+            <mxRectangle width="190" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_pnames_r1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="tbl_pnames">
+          <mxGeometry y="58" width="230" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_pnames_r1_c1" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_pnames_r1">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_pnames_r1_c2" value="Наименование" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_pnames_r1">
+          <mxGeometry x="40" width="190" height="28" as="geometry">
+            <mxRectangle width="190" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <!-- Единицы измерения -->
+        <mxCell id="tbl_units" value="Единицы измерения" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="270" width="230" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_units_r0" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=#000000;" vertex="1" parent="tbl_units">
+          <mxGeometry y="30" width="230" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_units_r0_c1" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;fontStyle=1;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_units_r0">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_units_r0_c2" value="Код единицы измерения" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_units_r0">
+          <mxGeometry x="40" width="190" height="28" as="geometry">
+            <mxRectangle width="190" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_units_r1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="tbl_units">
+          <mxGeometry y="58" width="230" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_units_r1_c1" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_units_r1">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_units_r1_c2" value="Единица измерения" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_units_r1">
+          <mxGeometry x="40" width="190" height="28" as="geometry">
+            <mxRectangle width="190" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <!-- Поставщики -->
+        <mxCell id="tbl_suppliers" value="Поставщики" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="390" width="230" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_suppliers_r0" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=#000000;" vertex="1" parent="tbl_suppliers">
+          <mxGeometry y="30" width="230" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_suppliers_r0_c1" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;fontStyle=1;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_suppliers_r0">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_suppliers_r0_c2" value="Код поставщика" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_suppliers_r0">
+          <mxGeometry x="40" width="190" height="28" as="geometry">
+            <mxRectangle width="190" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_suppliers_r1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="tbl_suppliers">
+          <mxGeometry y="58" width="230" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_suppliers_r1_c1" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_suppliers_r1">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_suppliers_r1_c2" value="Название поставщика" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_suppliers_r1">
+          <mxGeometry x="40" width="190" height="28" as="geometry">
+            <mxRectangle width="190" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <!-- Производители -->
+        <mxCell id="tbl_manufacturers" value="Производители" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="510" width="230" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_manufacturers_r0" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=#000000;" vertex="1" parent="tbl_manufacturers">
+          <mxGeometry y="30" width="230" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_manufacturers_r0_c1" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;fontStyle=1;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_manufacturers_r0">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_manufacturers_r0_c2" value="Код производителя" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_manufacturers_r0">
+          <mxGeometry x="40" width="190" height="28" as="geometry">
+            <mxRectangle width="190" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_manufacturers_r1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="tbl_manufacturers">
+          <mxGeometry y="58" width="230" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_manufacturers_r1_c1" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_manufacturers_r1">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_manufacturers_r1_c2" value="Название производителя" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_manufacturers_r1">
+          <mxGeometry x="40" width="190" height="28" as="geometry">
+            <mxRectangle width="190" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <!-- Категории товаров -->
+        <mxCell id="tbl_categories" value="Категории товаров" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="630" width="230" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_categories_r0" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=#000000;" vertex="1" parent="tbl_categories">
+          <mxGeometry y="30" width="230" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_categories_r0_c1" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;fontStyle=1;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_categories_r0">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_categories_r0_c2" value="Код категории" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_categories_r0">
+          <mxGeometry x="40" width="190" height="28" as="geometry">
+            <mxRectangle width="190" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_categories_r1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="tbl_categories">
+          <mxGeometry y="58" width="230" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_categories_r1_c1" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=1;overflow=hidden;align=center;verticalAlign=middle;strokeColor=#000000;" vertex="1" parent="tbl_categories_r1">
+          <mxGeometry width="40" height="28" as="geometry">
+            <mxRectangle width="40" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbl_categories_r1_c2" value="Название категории" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;verticalAlign=middle;" vertex="1" parent="tbl_categories_r1">
+          <mxGeometry x="40" width="190" height="28" as="geometry">
+            <mxRectangle width="190" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;startArrow=ERone;endFill=0;startFill=0;strokeColor=#000000;" edge="1" parent="1" source="tbl_roles_r0" target="tbl_users_r1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;startArrow=ERone;endFill=0;startFill=0;strokeColor=#000000;" edge="1" parent="1" source="tbl_cities_r0" target="tbl_pickup_r1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;startArrow=ERone;endFill=0;startFill=0;strokeColor=#000000;" edge="1" parent="1" source="tbl_users_r0" target="tbl_orders_r1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;startArrow=ERone;endFill=0;startFill=0;strokeColor=#000000;" edge="1" parent="1" source="tbl_pickup_r0" target="tbl_orders_r2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;startArrow=ERone;endFill=0;startFill=0;strokeColor=#000000;" edge="1" parent="1" source="tbl_statuses_r0" target="tbl_orders_r3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;startArrow=ERone;endFill=0;startFill=0;strokeColor=#000000;" edge="1" parent="1" source="tbl_orders_r0" target="tbl_order_items_r1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;startArrow=ERone;endFill=0;startFill=0;strokeColor=#000000;" edge="1" parent="1" source="tbl_products_r0" target="tbl_order_items_r2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;startArrow=ERone;endFill=0;startFill=0;strokeColor=#000000;" edge="1" parent="1" source="tbl_pnames_r0" target="tbl_products_r1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;startArrow=ERone;endFill=0;startFill=0;strokeColor=#000000;" edge="1" parent="1" source="tbl_units_r0" target="tbl_products_r2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;startArrow=ERone;endFill=0;startFill=0;strokeColor=#000000;" edge="1" parent="1" source="tbl_suppliers_r0" target="tbl_products_r3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;startArrow=ERone;endFill=0;startFill=0;strokeColor=#000000;" edge="1" parent="1" source="tbl_manufacturers_r0" target="tbl_products_r4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;startArrow=ERone;endFill=0;startFill=0;strokeColor=#000000;" edge="1" parent="1" source="tbl_categories_r0" target="tbl_products_r5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
